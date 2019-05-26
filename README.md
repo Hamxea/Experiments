@@ -55,4 +55,3 @@ Using pre-trained embedding (e.g Word2vec, FastText, and Glove)
 * Precision
 * F1 Score or Measure
 * recall
-*
