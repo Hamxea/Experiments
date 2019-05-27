@@ -45,7 +45,7 @@ Two ways to feed embeddings to neural networks:
 * LSTM
 * GRU
 
-### with pre-trained embedding (with Word2Vec, FastText, Glove)
+#### with pre-trained embedding (with Word2Vec, FastText, Glove)
 * CNN 
 * RNN
 * LSTM
