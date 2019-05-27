@@ -28,13 +28,16 @@ Deep Neural Networks input layers make use of input variables to feed the networ
 
 In our experiment, we used densed representation of those text (comments) and their semanticity together. The advantage of using this approach is the best way for fitting neural networks onto a text data (as in our case), as well as less memory usage compared to other sparse representation approaches.
 
+
+### METHODS
+
 #### Word Embedding
 Two ways to feed embeddings to neural networks:
 
-Using your own word embeddings by training
-Using pre-trained embedding (e.g Word2vec, FastText, and Glove)
+* Using your own word embeddings by training (keras)
+* Using pre-trained embedding (e.g Word2vec, FastText, and Glove)
 
-### METHODS 
+
 #### Without pre-trained embedding
 * NN
 * CNN 
