@@ -58,3 +58,9 @@ Two ways to feed embeddings to neural networks:
 * Precision
 * F1 Score or Measure
 * recall
+
+
+### EVALUATION RESULTS
+![undefined](https://user-images.githubusercontent.com/27901245/58401001-5c4b4600-8065-11e9-9add-455f8b20b30d.png)
+
+
