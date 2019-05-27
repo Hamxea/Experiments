@@ -28,6 +28,34 @@ Deep Neural Networks input layers make use of input variables to feed the networ
 
 In our experiment, we used densed representation of those text (comments) and their semanticity together. The advantage of using this approach is the best way for fitting neural networks onto a text data (as in our case), as well as less memory usage compared to other sparse representation approaches.
 
+### Train, Validation, Test Splits
+
+#### Train Data:
+The sample data used to fit the model.
+
+#### Validation Data:
+The sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters.
+
+#### Test Data:
+The sample of data used to provide an unbiased evaluation of a final model fit on the training dataset
+
+The test set is generally what is used to evaluate competing models (For example on many Kaggle competitions, the validation set is released initially along with the training set and the actual test set is only released when the competition is about to close, and it is the result of the the model on the Test set that decides the winner).
+
+### Our Experiment Splits Ratio
+Split ratio on most of the experimental datasets depends mainly on two (2) things: The number of samples in the data, and the actual model you are training.
+
+It's always good to splits in the raio of (60%:20%:20%) in terms of (Train:Validation:Test) when you have 1 dataset. But thanks to kaggle competition spits of Train dataset and Test dataset. Now, we need to compute only the validation accuracy.
+
+In our experiment, we used the train dataset as our (train and validation data), while the test dataset as our test data.
+For the Train data, we used used cross validation to split the train data into random train and validation subset. Our model is then iteratively trained and validated on these different sets.
+
+The Train dataset consists of (159571 samples), so when to split it into train and validaton. we have train split (0.8 of train dataset) = 127657 samples, while the validation split(0.2 of Train dataset) = 31914 samples.
+
+Lastly, the test dataset consists of 63930 samples, therefore, we use all the samples as our test split.
+
+
+
+### Train Data
 
 ### METHODS
 
