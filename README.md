@@ -70,4 +70,5 @@ Two ways to feed embeddings to neural networks:
 
 ![multi-label_with_Glove_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58404959-0a0f2280-806f-11e9-85b7-8d4164240290.png)
 
-![fastText_trained_embedding_with the max of the evaluation matrics (per model) _table ](https://user-images.githubusercontent.com/27901245/58405037-32971c80-806f-11e9-9137-18b0c3187510.png)
+![fastText_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58405191-8dc90f00-806f-11e9-932b-4c62e2b8b16f.png)
+
