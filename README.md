@@ -61,3 +61,7 @@ Two ways to feed embeddings to neural networks:
 
 
 ### EVALUATION RESULTS
+
+
+
+![fastText_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58401446-881afb80-8066-11e9-8216-8134c70b61c8.png)
