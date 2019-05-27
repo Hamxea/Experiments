@@ -81,22 +81,32 @@ Two ways to feed embeddings to neural networks:
 
 
 ### EVALUATION METRICS
+The evaluation measures for single-label are usually different than for multi-label. Here in single-label classfication we use simple metrics such as: 
+
 * Accuracy
 * Score
 * Precision
 * F1 Score or Measure
 * recall
+* etc
+
+In multi-label classification, a misclassification is no longer a hard wrong or right. A prediction containing a subset of the actual classes should be considered better than a prediction that contains none of them, i.e., predicting two of the three labels correctly this is better than predicting no labels at all.
+
+Therefore, we calculates the precision, a metric for multi-label classification of how many selected items are relevant, and also calculates the recall, a metric for multi-label classification of how many relevant items are selected.
+
+Lastly, we calculates the F score, the weighted harmonic mean of precision and recall. This is useful for multi-label classification, where input samples can be classified as sets of labels. By only using accuracy (precision) a model would achieve a perfect score by simply assigning every class to every input. In order to avoid this, a metric should penalize incorrect class assignments as well (recall). The F-beta score (ranged from 0.0 to 1.0) computes this, as a weighted mean of the proportion of correct class assignments vs. the proportion of incorrect class assignments. With beta = 1, this is equivalent to a F-measure. With beta < 1, assigning correct classes becomes more important, and with beta > 1 the metric is instead weighted towards penalizing incorrect class assignments.
 
 
 ### EVALUATION RESULTS
 
+* Without pre-trained Embedding:
 ![multi-label_without_pre-trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58405022-2ad77800-806f-11e9-86a7-ef56a2142242.png)
 
-
+*With Word2Vec Embedding
 ![Word2Vec_pre-trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58404940-fe236080-806e-11e9-9aa1-4cef1af48697.png)
 
-
+*With Glove Embedding
 ![multi-label_with_Glove_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58404959-0a0f2280-806f-11e9-85b7-8d4164240290.png)
 
+*With FastText Embedding
 ![fastText_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58405191-8dc90f00-806f-11e9-932b-4c62e2b8b16f.png)
-
