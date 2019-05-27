@@ -54,9 +54,6 @@ The Train dataset consists of (159571 samples), so when to split it into train a
 Lastly, the test dataset consists of 63930 samples, therefore, we use all the samples as our test split.
 
 
-
-### Train Data
-
 ### METHODS
 
 #### Word Embedding
