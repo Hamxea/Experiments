@@ -105,7 +105,6 @@ Lastly, we calculates the F score, the weighted harmonic mean of precision and r
 *With FastText Embedding
 ![fastText_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58405191-8dc90f00-806f-11e9-932b-4c62e2b8b16f.png)
 
-
 *With Glove Embedding
 ![multi-label_with_Glove_trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58404959-0a0f2280-806f-11e9-85b7-8d4164240290.png)
 
