@@ -17,6 +17,17 @@ Toxic Comment Classification dataset. a multi-label text classfication data cons
 * Observations in one or more class 35098
 * Unclassified observation 124473
 
+### HANDLING UNCLASSIFIED OBSERVATION
+ We eliminate the the unclassified sample, in other we neglected unclassified samples. The new data (train) characteritics
+ * Number of data points (records or samples) 16225
+ * Number data points of type toxic 15294
+ * Number data points of type severe_tocic 1595
+ * Number data points of type obscene 8449
+ * Number data points of type threat 478
+ * Number data points of type insult 7877
+ * Number data points of type identity_hate 1405
+ * Observations in one or more class 35098
+ * Unclassified observation 0
 
 ### DATA PREPARATION
  We clean the Train and Test data, specifically remove punctuations
