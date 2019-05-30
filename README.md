@@ -28,10 +28,10 @@ Toxic Comment Classification dataset. a multi-label text classfication data cons
  * Number data points of type identity_hate 1405
  * Observations in one or more class 35098
  * Unclassified observation 0
+ * https://www.datacamp.com/community/tutorials/diving-deep-imbalanced-data 
 
 ### DATA PREPARATION
  We clean the Train and Test data, specifically remove punctuations
- 
  
  
 ### DATA PREPROCESSING
