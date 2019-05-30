@@ -121,3 +121,9 @@ Lastly, we calculates the F score, the weighted harmonic mean of precision and r
 
 *With Word2Vec Embedding
 ![Word2Vec_pre-trained_embedding_with the max of the evaluation matrics (per model) _table](https://user-images.githubusercontent.com/27901245/58404940-fe236080-806e-11e9-9aa1-4cef1af48697.png)
+
+
+
+### COMPARISON OF RESULT WITH [1]
+
+.......put comparision table with previous work...............
