@@ -107,6 +107,7 @@ Lastly, we calculates the F score, the weighted harmonic mean of precision and r
 ##### Refer to: 
 * https://www.cse.iitk.ac.in/users/sigml/lec/Slides/MLL.pdf
 * https://users.ics.aalto.fi/jesse/talks/Multilabel-Part01.pdf
+* https://stats.stackexchange.com/questions/323154/precision-vs-recall-acceptable-limits
 
 ### EVALUATION RESULTS
 
