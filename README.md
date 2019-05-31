@@ -96,7 +96,7 @@ The evaluation measures for single-label are usually different than for multi-la
 * Precision
 * F1 Score or Measure
 * recall
-* etc
+* Reference: https://romisatriawahono.net/lecture/rm/survey/machine%20learning/Zhang%20-%20Multi-Label%20Learning%20Algorithms%20-%202013.pdf
 
 In multi-label classification, a misclassification is no longer a hard wrong or right. A prediction containing a subset of the actual classes should be considered better than a prediction that contains none of them, i.e., predicting two of the three labels correctly this is better than predicting no labels at all.
 
