@@ -128,3 +128,5 @@ Lastly, we calculates the F score, the weighted harmonic mean of precision and r
 ### COMPARISON OF RESULT WITH [1]
 
 .......put comparision table with previous work...............
+![ResultComparisonTable](https://user-images.githubusercontent.com/27901245/64339610-17806500-cfed-11e9-8899-e36bf566cc73.png)
+
